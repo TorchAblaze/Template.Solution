@@ -11,7 +11,7 @@ namespace ClassItemNameTests.Test
     [TestMethod]
     public void ClassItemNameConstructor_CreatesInstanceOfClassItem_ClassItemName()
     {
-      ClassItemName newClassItemName = new ClassItemName("test");
+      ClassItemName newClassItemName = new ClassItemName();
       Assert.AreEqual(typeof(ClassItemName), newClassItemName.GetType());
     }
     // Class Item Tests
