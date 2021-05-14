@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using TemplateNameSpace.Models;
 
-namespace ClassItemNameTests.Test
+namespace TemplateNameSpace.Tests
 {
   [TestClass]
   public class ClassItemNameTests
